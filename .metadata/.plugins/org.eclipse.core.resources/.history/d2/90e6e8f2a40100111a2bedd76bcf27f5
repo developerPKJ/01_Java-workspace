@@ -1,0 +1,18 @@
+package com.kh.second.run;
+
+import com.kh.second.MethodTest;
+//import com.kh.first.HelloEveryone;
+
+public class Run {
+
+	//main 메소드만 갖고있는 클래스 : 실행용 클래스
+	//main 메소드는 보통 별도 실행용 클래스에 따로 분리해서 작성함
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MethodTest.c();
+		System.out.println();
+		MethodTest.b();
+		
+		//HelloEveryone.calculationMethod(null, null, null);
+	}
+}

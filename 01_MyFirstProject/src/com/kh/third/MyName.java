@@ -1,0 +1,9 @@
+package com.kh.third;
+
+public class MyName {
+
+	public void callName() {
+		System.out.println("박경준");
+	}
+	
+}

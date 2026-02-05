@@ -1,0 +1,15 @@
+package com.kh.third.run;
+
+import com.kh.third.MyName;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MyName mn = new MyName();
+		mn.callName();
+		
+	}
+
+}
