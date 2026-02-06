@@ -59,11 +59,13 @@ public class C_Cast {
 		byte b2 = 10;
 		//byte result = b1+b2;
 		int result = b1+b2;
+		System.out.println(result);
 		
 		short s1 = 10;
 		short s2 = 100;
 		//short result2 = s1+s2;
 		int result2 = s1+s2;
+		System.out.println(result2);
 		
 		//굳이 출력을 byte나 short로 바꾸고자 한다면 괄호로 계산하고 나서 강제형변환을 붙여주면 됨
 	}

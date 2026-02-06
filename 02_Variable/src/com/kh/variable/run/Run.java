@@ -2,7 +2,8 @@ package com.kh.variable.run;
 
 //import com.kh.variable.A_Variable;
 //import com.kh.variable.B_KeyboardInput;
-import com.kh.variable.C_Cast;
+//import com.kh.variable.C_Cast;
+import com.kh.variable.D_Printf;
 
 public class Run {
 
@@ -12,9 +13,10 @@ public class Run {
 		av.printSquare();
 		
 		
-		System.out.printf("%07.3f", 12.3405);		//a.bf 에서 b는 소수점 자리수, a는 '최소' 폭(개수)임, 0운 0채우기
+		System.out.printf("%07.3f", 12.3405);		// a.bf 에서 b는 소수점 자리수, a는 '최소' 폭(개수)임, 0운 0채우기
 		System.out.println();
-		System.out.printf("%+7.3f", 12.3405);		//+는 부호표시, -는 왼쪽정렬로 변경
+		System.out.printf("%+7.3f", 12.3405);		// +는 부호표시, -는 왼쪽정렬로 변경
+													// %C, %S 이렇게 대문자인 경우 알파벳인 경우 대문자로 변경해서 출력
 		
 		System.out.println();
 		av.declareVariable();
@@ -76,11 +78,17 @@ public class Run {
 		// scanner의 경우 보통 위처럼 그냥 바로바로 출력하지 않고, profile처럼 변수에 저장해서 재활용하는 방식을 사용함
 		*/
 		
-		
+		/*
 		C_Cast cc = new C_Cast();
 		
-//		cc.test();
-//		cc.autoCasting();
+		cc.test();
+		cc.autoCasting();
 		cc.forceCasting();
+		*/
+		
+		D_Printf dp = new D_Printf();
+		
+		dp.printfTest();
+		
 	}
 }
