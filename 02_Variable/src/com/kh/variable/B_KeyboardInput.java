@@ -56,6 +56,15 @@ public class B_KeyboardInput {
 		System.out.println("나이 :"+age);
 		System.out.println("주소 :"+address);
 		System.out.println("키 :"+height);
+		
+		System.out.printf("name : %s", name);
+		System.out.println();
+		System.out.printf("age : %d", age);
+		System.out.println();
+		System.out.printf("address : %s", address);
+		System.out.println();
+		System.out.printf("height : %.1f", height);
+		System.out.println();
 	}
 	
 	
@@ -82,6 +91,23 @@ public class B_KeyboardInput {
 		String text = "asdf";
 		int result = text.hashCode();
 		System.out.println(result);
+	}
+	
+	public void indexTest() {
+		System.out.println("아무 3글자 이상 입력 :");
+		String text = scan.nextLine();
+		
+		if (text.length() > 2) {
+			char a = text.charAt(0);
+			char b = text.charAt(1);
+			char c = text.charAt(2);
+			
+			System.out.println("첫번째 글자 : "+a);
+			System.out.println("두번째 글자 : "+b);
+			System.out.println("세번째 글자 : "+c);
+		}else {
+			System.out.println("문자열 길이 부족");
+		}
 	}
 	
 	

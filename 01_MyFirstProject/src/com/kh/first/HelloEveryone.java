@@ -75,6 +75,7 @@ public class HelloEveryone {
 			}
 			String b = scan.next();
 			String c = scan.next();
+			scan.nextLine();
 			
 			calculationMethod(a, b, c);
 		}

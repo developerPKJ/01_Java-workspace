@@ -1,7 +1,8 @@
 package com.kh.variable.run;
 
-import com.kh.variable.A_Variable;
-import com.kh.variable.B_KeyboardInput;
+//import com.kh.variable.A_Variable;
+//import com.kh.variable.B_KeyboardInput;
+import com.kh.variable.C_Cast;
 
 public class Run {
 
@@ -25,9 +26,12 @@ public class Run {
 		av.overflow();
 		*/
 		
+		
+		
+		/*
 		//객체 생성
 		B_KeyboardInput bk = new B_KeyboardInput();
-		/*
+		
 		//아무 문장 입력 후 출력
 		System.out.println("아무 문장 입력:");
 		bk.scaning();
@@ -55,7 +59,7 @@ public class Run {
 			System.out.println("실수 입력 필요");
 			bk.clearBuffer();
 		}
-		*/
+				
 		
 		//프로필 입력
 		System.out.println("프로필 입력(이름, 나이, 주소, 키)");
@@ -63,7 +67,20 @@ public class Run {
 		
 		bk.type3();
 		
+		
+		//사용자로부터 3 글자 이상의 문자열을 입력 받고, 글자 인덱스 0~2 글자를 뽑아 출력
+		bk.indexTest();
+		
+		
 		bk.close();
 		// scanner의 경우 보통 위처럼 그냥 바로바로 출력하지 않고, profile처럼 변수에 저장해서 재활용하는 방식을 사용함
+		*/
+		
+		
+		C_Cast cc = new C_Cast();
+		
+//		cc.test();
+//		cc.autoCasting();
+		cc.forceCasting();
 	}
 }
