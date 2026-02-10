@@ -1,7 +1,8 @@
 package com.kh.chap01.condition.run;
 
+import com.kh.chap01.condition.B_Else;
 //import com.kh.chap01.condition.A_If;
-import com.kh.chap01.condition.Homework1;
+// import com.kh.chap01.condition.Homework1;
 
 public class ConditionRun {
 	// - 조건문 : if / switch
@@ -15,11 +16,14 @@ public class ConditionRun {
 //		ai.method2();
 //		ai.method3();
 		
-		Homework1 hw = new Homework1();
-		hw.method5();
+		// Homework1 hw = new Homework1();
+		// hw.method5();
 //		System.out.println();
 //		System.out.println();
 //		hw.method7();
+		
+		B_Else bl = new B_Else();
+		bl.method1();
 		
 	}
 
