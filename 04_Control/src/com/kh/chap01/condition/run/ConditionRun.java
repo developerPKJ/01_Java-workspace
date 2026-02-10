@@ -23,7 +23,8 @@ public class ConditionRun {
 //		hw.method7();
 		
 		B_Else bl = new B_Else();
-		bl.method1();
+		// bl.method1();
+		bl.method2();
 		
 	}
 
