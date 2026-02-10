@@ -7,7 +7,6 @@ public class Run {
 	//main 메소드만 갖고있는 클래스 : 실행용 클래스
 	//main 메소드는 보통 별도 실행용 클래스에 따로 분리해서 작성함
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		 * 호출 방법
 		 * 1. import - 다른 패키지에 존재하는 클래스를 불러 올 때, 같은 패키지 내에 존재하는 클래스면 필요 없음

@@ -15,7 +15,6 @@ import com.kh.operator.*;
 public class OperatorRun {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		A_Arithmetic aa = new A_Arithmetic();
 		aa.cal(14, 8, '+');
@@ -63,7 +62,6 @@ public class OperatorRun {
 //			scan.nextLine();
 //			ec.classify(num);
 //		} catch (Exception e) {
-//			// TODO: handle exception
 //			System.out.println("�߸��� �Է�");
 //		}
 //		
@@ -109,7 +107,6 @@ public class OperatorRun {
 //			scan.nextLine();
 //			gt.triple4(a);
 //		} catch (Exception e) {
-//			// TODO: handle exception
 //			System.out.println("�߸��� �� �Է�");
 //		}
 		

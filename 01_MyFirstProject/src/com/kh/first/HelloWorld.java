@@ -12,7 +12,6 @@ public class HelloWorld {
 	
 	//main method
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("hi everyone");
 		// 중괄호 뒤에 제외하고 문장이 끝나면 ;
 		System.out.println("hello everyone");

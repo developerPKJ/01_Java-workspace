@@ -47,7 +47,6 @@ public class Run {
 		try {
 			bk.age();
 		} catch (Exception e) {
-			// TODO: handle exception
 			System.out.println("정수 입력 필요");
 			bk.clearBuffer();
 		}
@@ -57,7 +56,6 @@ public class Run {
 		try {
 			bk.height();
 		} catch (Exception e) {
-			// TODO: handle exception
 			System.out.println("실수 입력 필요");
 			bk.clearBuffer();
 		}

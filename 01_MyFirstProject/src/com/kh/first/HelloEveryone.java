@@ -62,7 +62,6 @@ public class HelloEveryone {
 	
 	// static : 재사용 가능
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Hello, Everyone!");
 		Scanner scan = new Scanner(System.in);
 		

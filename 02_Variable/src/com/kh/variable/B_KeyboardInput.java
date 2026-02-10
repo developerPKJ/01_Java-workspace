@@ -35,7 +35,6 @@ public class B_KeyboardInput {
 		try {
 			age = scan.nextInt();
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 		clearBuffer();
 		
@@ -47,7 +46,6 @@ public class B_KeyboardInput {
 		try {
 			height = scan.nextDouble();
 		} catch (Exception e) {
-			// TODO: handle exception
 		}
 		 clearBuffer();
 		

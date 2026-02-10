@@ -11,7 +11,6 @@ public class ConditionRun {
 	// - 반복문 : for / while
 	// - 블록문 : 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 //		A_If ai = new A_If();
 
 //		ai.method1();
@@ -36,7 +35,9 @@ public class ConditionRun {
 		// cs.method2();
 		// cs.method3();
 		// cs.method4();
+		
 		cs.method5();
+		cs.method6();
 
 		cs.sc.close();
 	}
