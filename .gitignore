@@ -1,26 +1,20 @@
 ############################
-# OS
-############################
-.DS_Store
-Thumbs.db
-
-############################
 # Java build outputs
 ############################
-/bin/
-/out/
-/target/
-/build/
-*.class
+**/bin/
+**/out/
+**/target/
+**/build/
+**/*.class
 
 ############################
-# Eclipse
+# Eclipse (모든 하위 프로젝트)
 ############################
-.project
-.classpath
-.settings/
-.metadata/
-.recommenders/
+**/.project
+**/.classpath
+**/.settings/
+**/.metadata/
+**/.recommenders/
 
 ############################
 # VS Code
@@ -32,15 +26,9 @@ Thumbs.db
 !.vscode/extensions.json
 
 ############################
-# Logs / temp
+# OS / temp
 ############################
+.DS_Store
+Thumbs.db
 *.log
 *.tmp
-*.swp
-*~
-
-############################
-# IDE caches
-############################
-*.iml
-.idea/
