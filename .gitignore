@@ -19,6 +19,7 @@
 ############################
 # VS Code
 ############################
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/launch.json

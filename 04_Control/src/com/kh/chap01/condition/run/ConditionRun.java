@@ -1,7 +1,9 @@
 package com.kh.chap01.condition.run;
 
-import com.kh.chap01.condition.B_Else;
-//import com.kh.chap01.condition.A_If;
+import com.kh.chap01.condition.C_Switch;
+
+// import com.kh.chap01.condition.B_Else;
+// import com.kh.chap01.condition.A_If;
 // import com.kh.chap01.condition.Homework1;
 
 public class ConditionRun {
@@ -22,10 +24,21 @@ public class ConditionRun {
 //		System.out.println();
 //		hw.method7();
 		
-		B_Else bl = new B_Else();
+		// B_Else bl = new B_Else();
 		// bl.method1();
-		bl.method2();
-		
+		// bl.method2();
+		// bl.method3();
+
+		// bl.scan.close();
+
+		C_Switch cs = new C_Switch();
+		// cs.method1();
+		// cs.method2();
+		// cs.method3();
+		// cs.method4();
+		cs.method5();
+
+		cs.sc.close();
 	}
 
 }
