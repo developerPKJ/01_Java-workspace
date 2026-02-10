@@ -4,10 +4,9 @@ package com.kh.chap01.condition.run;
 import com.kh.chap01.condition.Homework1;
 
 public class ConditionRun {
-	//¡¶æÓπÆ¿ª ≈Î«ÿº≠ «¡∑Œ±◊∑•¿« Ω««‡ »Â∏ßø° ∫Ø»≠∏¶ ¡Ÿ ºˆ ¿÷¿Ω
-	// - ¡∂∞«πÆ : if / switch
-	// - π›∫ππÆ : for / while
-	// - ∫–±‚πÆ : 
+	// - Ï°∞Í±¥Î¨∏ : if / switch
+	// - Î∞òÎ≥µÎ¨∏ : for / while
+	// - Î∏îÎ°ùÎ¨∏ : 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		A_If ai = new A_If();

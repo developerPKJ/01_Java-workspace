@@ -7,59 +7,59 @@ public class Homework1 {
 	
 	public void method5() {
 		
-		System.out.println("ÀÌ¸§ ÀÔ·Â : ");
+		System.out.println("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš” : ");
 		String name = scan.nextLine();
 		
-		System.out.println("ÇĞ³â(¼ıÀÚ¸¸) : ");
+		System.out.println("í•™ë…„(ìˆ«ìë¡œ) : ");
 		int year = scan.nextInt();
 		scan.nextLine();
 		
-		System.out.println("¹İ(¼ıÀÚ¸¸) : ");
+		System.out.println("ë°˜(ìˆ«ìë¡œ) : ");
 		int classNum = scan.nextInt();
 		scan.nextLine();
 		
-		System.out.println("¹øÈ£(¼ıÀÚ¸¸) : ");
+		System.out.println("ë²ˆí˜¸(ìˆ«ìë¡œ) : ");
 		int studentNum = scan.nextInt();
 		scan.nextLine();
 		
-		System.out.println("¼ºº°(M/F) : ");
+		System.out.println("ì„±ë³„(M/F) : ");
 		char gender = scan.nextLine().charAt(0);
-		String genderLong = (gender == 'M' || gender == 'm') ? "³²ÇĞ»ı" : 
-					((gender == 'F' || gender == 'f') ? "¿©ÇĞ»ı" : "Àß¸øµÈ ÀÔ·Â");
+		String genderLong = (gender == 'M' || gender == 'm') ? "ë‚¨í•™ìƒ" : 
+					((gender == 'F' || gender == 'f') ? "ì—¬í•™ìƒ" : "ì˜ëª»ëœ ì…ë ¥");
 		
-		System.out.println("¼ºÀû(¼Ò¼öÁ¡ ¾Æ·¡ µÑÂ° ÀÚ¸®±îÁö) : ");
+		System.out.println("ì ìˆ˜(ì‹¤ìˆ˜ë¡œ) : ");
 		double grade = scan.nextDouble();
 		scan.nextLine();
 		
-		System.out.printf("%dÇĞ³â %d¹İ %d¹ø %s %sÀÇ ¼ºÀûÀº %.2fÀÌ´Ù.", year, classNum, studentNum, name,
+		System.out.printf("%dí•™ë…„ %dë°˜ %dë²ˆ %s %sì˜ ì ìˆ˜ëŠ” %.2fì ì…ë‹ˆë‹¤.", year, classNum, studentNum, name,
 																genderLong, grade);
 		System.out.println();
 	}
 	
 	public void method7() {
-		System.out.print("±¹¾î Á¡¼ö : ");
+		System.out.print("êµ­ì–´ ì ìˆ˜ : ");
 		int kNum = scan.nextInt();
 		scan.nextLine();
-		System.out.print("¼öÇĞ Á¡¼ö : ");
+		System.out.print("ìˆ˜í•™ ì ìˆ˜ : ");
 		int mNum = scan.nextInt();
 		scan.nextLine();
-		System.out.print("¿µ¾î Á¡¼ö : ");
+		System.out.print("ì˜ì–´ ì ìˆ˜ : ");
 		int eNum = scan.nextInt();
 		scan.nextLine();
 		
 		int totalScore = kNum + mNum + eNum;
-		System.out.println("ÇÕ°è : "+totalScore);
+		System.out.println("ì´ì  : "+totalScore);
 		double averageScore = totalScore/3.0;
-		System.out.println("Æò±Õ : "+averageScore);
+		System.out.println("í‰ê·  : "+averageScore);
 		
 		if (kNum >= 40 && mNum >= 40 && eNum >= 40) {
 			if (averageScore >= 60) {
-				System.out.println("ÇÕ°İ");
+				System.out.println("í•©ê²©");
 			}else {
-				System.out.println("Æò±Õ Á¡¼ö ¹Ì´Ş, ºÒÇÕ°İ");
+				System.out.println("ë¶ˆí•©ê²©, í‰ê·  ë¯¸ë‹¬");
 			}
 		}else {
-			System.out.println("°ú¶ô °ú¸ñ Á¸Àç, ºÒÇÕ°İ");
+			System.out.println("ë¶ˆí•©ê²©, ê³¼ë½ ì¡´ì¬");
 		}
 	}
 }

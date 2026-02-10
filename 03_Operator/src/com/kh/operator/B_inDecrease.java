@@ -2,7 +2,7 @@ package com.kh.operator;
 
 public class B_inDecrease {
 	
-	//Αυ°¨ Ώ¬»κΐΪ
+	//μ „μ„/ν›„μ„ μ¦κ° μ—°μ‚°μ
 	public void inDecrease() {
 		int num = 10;
 		

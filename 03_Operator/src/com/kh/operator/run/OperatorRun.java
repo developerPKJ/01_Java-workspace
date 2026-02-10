@@ -23,11 +23,11 @@ public class OperatorRun {
 		aa.cal(14, 8, '*');
 		aa.cal(14, 8, '/');
 		aa.cal(14, 8, '%');
-		// »ê¼ú ¿¬»êÀº °¡´ÉÇÑ °ýÈ£·Î ¹­´Â ½À°ü!
+		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½!
 		// System.out.println(10 / 0);
-		// À§Ã³·³ 0À¸·Î ³ª´©´Â°Ç ÄÄÇ»ÅÍ¿¡¼± ºÒ°¡
+		// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Â°ï¿½ ï¿½ï¿½Ç»ï¿½Í¿ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½
 		
-		//»ê¼ú¿¬»êÀº °°Àº Å¸ÀÔ³¢¸® ¿¬»ê °¡´ÉÇÏ°í, °á°ú ¶ÇÇÑ °°Àº Å¸ÀÔÀ¸·Î ³ª¿È
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½Ô³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½, ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		
 		aa.divide();
 		*/
@@ -53,8 +53,8 @@ public class OperatorRun {
 		
 //		E_Comparison ec = new E_Comparison();
 //		ec.comparison();
-//		//ºñ±³ ¿¬»êÀÚº¸´Ù »ê¼ú ¿¬»êÀÚÀÇ ¿ì¼± ¼øÀ§°¡ ³ô±â ¶§¹®¿¡ »ç¿ëÇÒ ¶§ ÁÖÀÇ ÇÊ¿ä
-//		System.out.println("\nÁ¤¼ö ÀÔ·Â : ");
+//		//ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Úºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ì¼± ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½
+//		System.out.println("\nï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 //		
 //		
 		Scanner scan = new Scanner(System.in);
@@ -64,7 +64,7 @@ public class OperatorRun {
 //			ec.classify(num);
 //		} catch (Exception e) {
 //			// TODO: handle exception
-//			System.out.println("Àß¸øµÈ ÀÔ·Â");
+//			System.out.println("ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½");
 //		}
 //		
 //		
@@ -72,19 +72,19 @@ public class OperatorRun {
 //		fl.logicalFunction();
 //		
 //		
-//		System.out.println("Á¤¼ö ÇÏ³ª ÀÔ·Â : ");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ï³ï¿½ ï¿½Ô·ï¿½ : ");
 //		int num = scan.nextInt();
 //		scan.nextLine();
 //		boolean isTrue = fl.logicalFunction2(num);
 //		
-//		System.out.println("¾ç¼öÀÌ¸é¼­ Â¦¼ö "+isTrue);
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½Ì¸é¼­ Â¦ï¿½ï¿½ "+isTrue);
 //		
 //		
 //		char ch = scan.nextLine().charAt(0);
 //		fl.logicalFunction3(ch);
 		
 		G_Triple gt = new G_Triple();
-//		System.out.println("Á¤¼ö 2°³ ÀÔ·Â");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ 2ï¿½ï¿½ ï¿½Ô·ï¿½");
 //		int a = scan.nextInt();
 //		scan.nextLine();
 //		int b = scan.nextInt();
@@ -93,27 +93,27 @@ public class OperatorRun {
 //		gt.whichMin(a, b);
 //		
 //		
-//		System.out.println("¾Æ¹« Á¤¼ö ÀÔ·Â");
+//		System.out.println("ï¿½Æ¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½");
 //		int c = scan.nextInt();
 //		scan.nextLine();
 //		gt.triple2(c);
 		
 		
-//		System.out.println("±ÛÀÚ ÀÔ·Â");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½");
 //		char ch = scan.nextLine().charAt(0);
 //		gt.triple3(ch);
 		
-//		System.out.println("Á¤¼ö ÀÔ·Â");
+//		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½");
 //		try {
 //			int a = scan.nextInt();
 //			scan.nextLine();
 //			gt.triple4(a);
 //		} catch (Exception e) {
 //			// TODO: handle exception
-//			System.out.println("Àß¸øµÈ °ª ÀÔ·Â");
+//			System.out.println("ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½");
 //		}
 		
-		System.out.println("±ÛÀÚ ÀÔ·Â");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½");
 		char ch = scan.nextLine().charAt(0);
 		gt.triple5(ch);
 

@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class A_Arithmetic {
 	
-	//ÀÌÇ× ¿¬»êÀÚ
 	public void cal(int a, int b, char ops) {
 		switch (ops) {
 		case '+':
@@ -31,15 +30,15 @@ public class A_Arithmetic {
 	public void divide() {
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("ÃÑ ¼ö·® : ");
+		System.out.println("ì‚¬íƒ• ê°œìˆ˜ : ");
 		int totalCandy = scan.nextInt();
 		scan.nextLine();
 		
-		System.out.println("ÃÑ ÀÎ¿ø ¼ö : ");
+		System.out.println("ì‚¬ëŒ ìˆ˜ : ");
 		int totalHuman = scan.nextInt();
 		scan.nextLine();
 		
-		System.out.printf("1ÀÎ´ç ¹ŞÀ» »çÅÁÀÇ ¼ö : %d, ³²Àº »çÅÁÀÇ ¼ö : %d", 
+		System.out.printf("ì‚¬íƒ•ì„ ë‚˜ëˆ„ì—ˆì„ ë•Œ, ê° ì‚¬ëŒì´ ë°›ëŠ” ì‚¬íƒ• ê°œìˆ˜ : %d, ë‚¨ì€ ì‚¬íƒ• ê°œìˆ˜ : %d", 
 						totalCandy/totalHuman, totalCandy%totalHuman);
 		
 		

@@ -19,12 +19,12 @@ public class E_Comparison {
 	public void classify(int num) {
 		if (num > 0) {
 			if (num % 2 == 0) {
-				System.out.println("Â¦¼ö");
+				System.out.println("ì§ìˆ˜");
 			}else {
-				System.out.println("È¦¼ö");
+				System.out.println("í™€ìˆ˜");
 			}
 		}else {
-			System.out.println("À½¼ö");
+			System.out.println("ìŒìˆ˜");
 		}
 	}
 }

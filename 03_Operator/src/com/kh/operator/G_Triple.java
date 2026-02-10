@@ -5,15 +5,15 @@ public class G_Triple {
 	public void whichMin(int a, int b) {
 		int minInt = (a < b) ? a : b;
 		char minChar = (a < b) ? 'a' : 'b';
-		System.out.printf("ÃÖ¼Ò°ª : %c = %d\n", minChar, minInt);
+		System.out.printf("ìµœì†Ÿê°’ì€ %c = %d\n", minChar, minInt);
 	}
 	
 	public void triple2(int a) {
 		if (a > 0) {
-			String result = (a % 2 == 0) ? "Â¦¼ö" : "È¦¼ö";
+			String result = (a % 2 == 0) ? "ì§ìˆ˜" : "í™€ìˆ˜";
 			System.out.println(result);
 		}else {
-			System.out.println("0 ÀÌÇÏÀÇ ¼ö ÀÔ·Â µÊ");
+			System.out.println("0 ì´í•˜ì˜ ìˆ˜ëŠ” ì…ë ¥ ë¶ˆê°€");
 		}
 	}
 	
@@ -24,14 +24,14 @@ public class G_Triple {
 	}
 	
 	public void triple4(int a) {
-		String result = (a > 0) ? ((a%2==0) ? "Â¦¼ö" : "È¦¼ö") 
-								: ((a==0) ? "0" : "À½¼ö");
+		String result = (a > 0) ? ((a%2==0) ? "ì§ìˆ˜" : "í™€ìˆ˜") 
+								: ((a==0) ? "0" : "ìŒìˆ˜");
 		System.out.println(result);
 	}
 	
 	public void triple5(char ch) {
 		String result = (65<=ch && ch<=90) ? "uppercase" 
-											: ((97<=ch && ch<=122) ? "lowercase" : "¿µ¹®ÀÚ ¾Æ´Ô");
+											: ((97<=ch && ch<=122) ? "lowercase" : "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´ï¿½");
 		System.out.println(result);
 	}
 }

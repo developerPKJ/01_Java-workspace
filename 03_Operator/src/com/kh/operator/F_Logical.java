@@ -3,25 +3,25 @@ package com.kh.operator;
 public class F_Logical {
 	
 	public void logicalFunction() {
-		//and & or ¿¬»êÀÚ
+		//and & or
 		//=&& & ||
 		int a = 1, b = 4;
 		
 		if (a%2==0 && b%2==0) {
-			System.out.println("µÑ´Ù Â¦");
+			System.out.println("ë‘ ìˆ˜ ëª¨ë‘ ì§ìˆ˜");
 		}else if (a%2==0 || b%2==0) {
 			if (a%2==0) {
-				System.out.println("a¸¸ Â¦");
+				System.out.println("aëŠ” ì§ìˆ˜");
 			}else {
-				System.out.println("b¸¸ Â¦");
+				System.out.println("bëŠ” ì§ìˆ˜");
 			}
 		}else {
-			System.out.println("µÑ´Ù È¦");
+			System.out.println("ë‘ ìˆ˜ ëª¨ë‘ í™€ìˆ˜");
 		}
 	}
 	
 	public boolean logicalFunction2(int num) {
-		boolean result = (num > 0) && (num % 2 == 0);	//°ıÈ£ ¾ø¾îµµ µÇÁö¸¸ °¡µ¶¼º À§ÇØ¼­ Ãß°¡
+		boolean result = (num > 0) && (num % 2 == 0);	//numì´ ì–‘ìˆ˜ì´ë©´ì„œ ì§ìˆ˜ì¸ì§€
 		return result;
 	}
 	

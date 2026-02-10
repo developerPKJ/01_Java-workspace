@@ -7,45 +7,44 @@ public class A_If {
 	Scanner scan = new Scanner(System.in);
 
 	public void method1() {
-		System.out.print("¼ö ÀÔ·Â : ");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		double n = scan.nextDouble();
 		scan.nextLine();
 		
 		if (n > 0) {
-			System.out.println("¾ç¼ö");
+			System.out.println("ì–‘ìˆ˜");
 			if (n % 2 == 0) {
-				System.out.println("Â¦¼ö");
+				System.out.println("ì§ìˆ˜");
 			}else if (n % 2 == 1) {
-				System.out.println("È¦¼ö");
+				System.out.println("í™€ìˆ˜");
 			}else {
-				System.out.println("½Ç¼ö");
+				System.out.println("ì†Œìˆ˜");
 			}
 		}else if (n < 0) {
-			System.out.println("À½¼ö");
+			System.out.println("ìŒìˆ˜");
 		}else {
 			System.out.println("0");
 		}
 	}
 	
 	public void method2() {
-		System.out.println("³ªÀÌ ÀÔ·Â : ");
+		System.out.println("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” : ");
 		int n = scan.nextInt();
 		scan.nextLine();
 		
 		if (n <= 0) {
-			System.out.println("Àß¸ø µÈ ³ªÀÌ ÀÔ·Â");
+			System.out.println("ì˜ëª»ëœ ë‚˜ì´ì…ë‹ˆë‹¤");
 		}else if (n <= 13) {
-			System.out.println("¾î¸°ÀÌ");
+			System.out.println("ì–´ë¦°ì´");
 		}else if (n <= 19) {
-			System.out.println("Ã»¼Ò³â");
+			System.out.println("ì²­ì†Œë…„");
 		}else {
-			System.out.println("¼ºÀÎ");
+			System.out.println("ì„±ì¸");
 		}
 	}
 	
 	public void method3() {
-		//ÁÖ¹Î ¹øÈ£´Â - ¸¦ Á¦¿ÜÇÏ´õ¶óµµ 0À¸·Î ½ÃÀÛÇÏ´Â °æ¿ì°¡ ÀÖ±â¿¡ ¹«Á¶°Ç StringÀ¸·Î ¹Ş¾Æ¾ßÇÔ
-		System.out.print("ÁÖ¹Î¹øÈ£ ÀÔ·Â : ");
+		System.out.print("ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ ì…ë ¥ : ");
 		String residentId = scan.nextLine().replaceAll("-", "");
 		
 		if (residentId.length() == 13) {
@@ -53,17 +52,17 @@ public class A_If {
 			String registrationNumber = residentId.substring(6);
 			
 			System.out.println(birthDay + '-' + registrationNumber);
-			System.out.println("°ËÁõ ÇÁ·Î±×·¥ ¿¬°á");
+			System.out.println("ì„±ë³„ í™•ì¸ : ");
 			
 			if (registrationNumber.charAt(0) == '2'  || registrationNumber.charAt(0) == '4') {				System.out.println("female");
 			}else if (registrationNumber.charAt(0) == '1' || registrationNumber.charAt(0) == '3') {
 				System.out.println("male");
 			}else {
-				System.out.println("Àß¸ø µÈ ÁÖ¹Î¹øÈ£");
+				System.out.println("ì˜ëª»ëœ ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ì…ë‹ˆë‹¤");
 			}
 			
 		}else {
-			System.out.println("Àß¸ø µÈ ÀÔ·Â");
+			System.out.println("ì˜ëª»ëœ ì£¼ë¯¼ë“±ë¡ë²ˆí˜¸ì…ë‹ˆë‹¤");
 		}
 	
 	}

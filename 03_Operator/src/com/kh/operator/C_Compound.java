@@ -1,7 +1,7 @@
 package com.kh.operator;
 
 public class C_Compound {
-	//º¹ÇÕ ´ëÀÔ ¿¬»êÀÚ = »ê¼ú + ´ëÀÔ ¿¬»êÀÚ
+	//ë³µí•© ëŒ€ì… ì—°ì‚°ì = ê¸°ì¡´ ê°’ + ìƒˆë¡œìš´ ê°’
 	public void compound1() {
 		int num1 = 100;
 		int num2 = 100;
