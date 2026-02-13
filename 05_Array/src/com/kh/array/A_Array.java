@@ -64,7 +64,7 @@ public class A_Array {
         System.out.println("과일 이름 : ");
         String fruitName = sc.nextLine();
 
-        System.out.println("과일 갯수");
+        System.out.println("과일 갯수 : ");
         int fruitNum = sc.nextInt();
         sc.nextLine();
 
@@ -120,6 +120,62 @@ public class A_Array {
             }
         }
         System.out.println();
+    }
+
+    /**
+     * 주소값을 해시코드(10진수로)
+     */
+    public void method11() {
+        int[] arr = new int[5];
+
+        System.out.println(arr);
+        System.out.println(arr.hashCode());
+
+        for (int i = 0; i < arr.length; i++) {
+            if(i == 0) {
+                arr[i] = 0;
+            }else {
+                arr[i] = arr[i-1] + 2;
+            }
+        }
+
+        for (int i : arr) {
+            System.out.println(i);
+        }
+    }
+
+    /*
+    배열 단점
+    - 처음 할당 과정에서 지정한 배열의 크기는 변경이 불가
+        --> 배열의 크기 변경을 하고 싶으면, 새로 배열을 생성
+    - 기존에 연결되어있었던 연결고리가 끊긴 배열은
+    메모리에 그대로 남아있을 경우 공간만 차지
+        --> 연결 끊긴 배열은 Heap영역에 남아있다 일정 시간 후 자동으로 삭제(가비지 컬렉션 기능)
+        해당 업무를 수행하는 것을 가비지 컬렌터라고 부름
+    */
+
+    public void method12() {
+        int[] arr = new int[4];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i+1;
+        }
+
+        int[] arr1 = new int[] {1, 2, 3, 4};
+
+        int[] arr2 = {1, 2, 3, 4};
+
+        //위의 배열은 모두 elements가 동일함(초기화 블럭 이용)
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println("arr :" + arr[i]);
+            System.out.println("arr1 :" + arr1[i]);
+            System.out.println("arr2 :" + arr2[i]);
+        }
+
+        for (int i = 0; i < arr2.length; i++) {
+            System.out.println(arr);
+            System.out.println(arr.hashCode());
+        }
     }
 
 }
