@@ -70,4 +70,9 @@ public class B_While {
             System.out.println("무한루프");
         }
     }
+
+    //continue문 : 반복문 안에서 continue문을 만나게 되면
+    //              그 뒤에 어떤 코드가 있든지 상관없이
+    //              반복문 처음 이동하여 다음 반복을 진행함
+    //              근데 사실 있어도 그만 없어도 그만이긴 함
 }

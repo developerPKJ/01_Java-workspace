@@ -2,7 +2,7 @@ package com.kh.chap01.loop.run;
 
 // import com.kh.chap01.loop.A_For;
 // import com.kh.chap01.loop.B_While;
-import com.kh.chap01.loop.Homework2;
+// import com.kh.chap01.loop.Homework2;
 
 public class LoopRun {
 
@@ -50,9 +50,9 @@ public class LoopRun {
         // bw.method6();
 
 
-        Homework2 hw2 = new Homework2();
+        // Homework2 hw2 = new Homework2();
 
         // hw2.practice3();       
-        hw2.practice6(); 
+        // hw2.practice6(); 
     }
 }
