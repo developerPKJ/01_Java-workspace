@@ -18,12 +18,10 @@ public class Homework3 {
         for (int i = 0; i < lottoNum.length; i++) {         //6개 채울 때까지 반복
             lottoNum[i] = rand.nextInt(45) + 1;     //1부터 45까지 랜덤한 정수 1개
 
-            if (i > 0) {
-                for (int j = 0; j < i; j++) {
-                    if (lottoNum[i] == lottoNum[j]) {       //배열에 동일한 값 존재시 다시뽑기
-                        i--;
-                        break;
-                    }
+            for (int j = 0; j < i; j++) {
+                if (lottoNum[i] == lottoNum[j]) {       //배열에 동일한 값 존재시 다시뽑기
+                    i--;
+                    break;
                 }
             }
         }
