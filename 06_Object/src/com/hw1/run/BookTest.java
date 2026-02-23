@@ -1,11 +1,11 @@
-package com.hw2.run;
+package com.hw1.run;
 
-import com.hw2.model.vo.Book;
+import com.hw1.model.vo.BookOld;
 
 public class BookTest {
     public static void main(String[] args) {
-        Book bk1 = new Book();
-        Book bk2 = new Book("자바의 정석", 20000, 0.2, "윤상섭");
+        BookOld bk1 = new BookOld();
+        BookOld bk2 = new BookOld("자바의 정석", 20000, 0.2, "윤상섭");
         System.out.println(bk1.information());
 
         bk1.setTitle("자바의 정석");

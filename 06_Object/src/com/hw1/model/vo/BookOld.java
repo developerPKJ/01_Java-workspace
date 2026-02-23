@@ -1,6 +1,6 @@
-package com.hw2.model.vo;
+package com.hw1.model.vo;
 
-public class Book {
+public class BookOld {
     // field
     private String title;           // 도서명
     private int price;              // 가격
@@ -8,9 +8,9 @@ public class Book {
     private String author;          // 저자명
 
     // constructor
-    public Book() {}
+    public BookOld() {}
 
-    public Book(String title, int price, double discountRate, String author) {
+    public BookOld(String title, int price, double discountRate, String author) {
         this.title = title;
         this.price = price;
         this.discountRate = discountRate;
