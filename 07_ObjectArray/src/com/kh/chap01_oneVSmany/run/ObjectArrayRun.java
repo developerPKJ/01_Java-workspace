@@ -46,5 +46,7 @@ public class ObjectArrayRun {
             }
         }
         System.out.println("찾는 책의 제목이 " + count + "권 있습니다.");
+
+        sc.close();
     }
 }
