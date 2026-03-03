@@ -60,6 +60,7 @@ public class MathRun {
         // Math.pow(double, double) : 제곱
         System.out.println("제곱 : " + Math.pow(num4, 2));
 
-
+        // Math.random() : 0.0 이상 1.0 미만의 난수(double) 발생
+        System.out.println("난수 : " + Math.random());
     }
 }
