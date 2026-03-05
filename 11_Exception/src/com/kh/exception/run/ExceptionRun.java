@@ -6,6 +6,9 @@ import java.io.IOException;
 import com.kh.exception.controller.B_CheckedException;
 
 public class ExceptionRun {
+    // main 메소드에도 throws 키워드 사용 가능한데, 이럴경우 JVM이 예외처리를 대신 해주기 때문에,
+    // 예외처리를 하지 않고 넘어가도 컴파일 에러가 발생하지 않음
+    // 하지만 권장되지 않음
     public static void main(String[] args) {
         /*
         에러의 종류
