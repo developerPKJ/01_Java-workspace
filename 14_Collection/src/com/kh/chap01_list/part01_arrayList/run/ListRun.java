@@ -29,15 +29,15 @@ import com.kh.chap01_list.part01_arrayList.model.vo.Music;
  * 컬렉션 분류(List, Set, Map)
  * List 계열
  * > 담고자 하는 값만 저장, 값 저장 시 순서 유지(index 개념 있음), 중복값 허용
- * - ArrayList, Vector, LinkedList
+ * - ArrayList, Vector, LinkedList > ArrayList가 가장 많이 사용됨
  * 
  * Set 계열
  * > 담고자 하는 값만 저장, 값 저장 시 순서 유지 X(index 개념 없음), 중복값 허용 X
- * - HashSet, TreeSet
+ * - HashSet, TreeSet > HashSet이 가장 많이 사용됨
  * 
  * Map 계열
  * > 키와 값이 한 쌍으로 저장, 키 저장 시 순서 유지 X(index 개념 없음), 키 중복값 허용 X 값 중복값 허용 O
- * - HashMap, Properties, HashTable
+ * - HashMap, Properties, HashTable, ... > HashMap, Properties가 가장 많이 사용됨
  */
 
 public class ListRun {
@@ -119,7 +119,9 @@ public class ListRun {
 
         // 9. isEmpty() : 리스트가 비어있는지 여부 리턴
         System.out.println(list.isEmpty());   // false
-        list.clear();   // 리스트의 모든 데이터 삭제
+
+        // 10. clear() : 리스트의 모든 데이터 삭제
+        list.clear();
         System.out.println(list.isEmpty());   // true
         System.out.println(list.size());
     }

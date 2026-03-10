@@ -17,7 +17,8 @@ public class MyList {
     public MyList() {}
 
     public MyList(int length) {
-        this.arr = new Object[length];
+        arr = new Object[length];
+        size = 0;
     }
 
 
